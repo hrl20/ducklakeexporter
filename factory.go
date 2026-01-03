@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package ducklakeexporter // import "github.com/hrl20/otel-ducklakeexporter"
+package ducklakeexporter // import "github.com/hrl20/ducklakeexporter"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/hrl20/otel-ducklakeexporter/internal/metadata"
+	"github.com/hrl20/ducklakeexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for the DuckLake exporter.

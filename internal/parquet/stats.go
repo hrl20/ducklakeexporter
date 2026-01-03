@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package parquet // import "github.com/hrl20/otel-ducklakeexporter/internal/parquet"
+package parquet // import "github.com/hrl20/ducklakeexporter/internal/parquet"
 
 // aggregateStats aggregates column statistics across pages.
 func aggregateStats(stats []ColumnStats) []ColumnStats {

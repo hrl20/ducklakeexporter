@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package parquet // import "github.com/hrl20/otel-ducklakeexporter/internal/parquet"
+package parquet // import "github.com/hrl20/ducklakeexporter/internal/parquet"
 
 import (
 	"encoding/json"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/hrl20/otel-ducklakeexporter/internal/traceutil"
+	"github.com/hrl20/ducklakeexporter/internal/traceutil"
 )
 
 // OTLPLog represents an OpenTelemetry log record in parquet format.

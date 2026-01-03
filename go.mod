@@ -1,4 +1,4 @@
-module github.com/hrl20/otel-ducklakeexporter
+module github.com/hrl20/ducklakeexporter
 
 go 1.24.0
 
@@ -156,5 +156,3 @@ require (
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal

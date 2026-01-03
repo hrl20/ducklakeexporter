@@ -5,4 +5,4 @@
 
 // Package ducklakeexporter exports logs to parquet files with PostgreSQL metadata tracking
 // following the DuckLake specification.
-package ducklakeexporter // import "github.com/hrl20/otel-ducklakeexporter"
+package ducklakeexporter // import "github.com/hrl20/ducklakeexporter"

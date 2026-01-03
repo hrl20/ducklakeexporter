@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sqltemplates // import "github.com/hrl20/otel-ducklakeexporter/internal/sqltemplates"
+package sqltemplates // import "github.com/hrl20/ducklakeexporter/internal/sqltemplates"
 
 import _ "embed"
 

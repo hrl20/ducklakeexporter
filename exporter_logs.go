@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ducklakeexporter // import "github.com/hrl20/otel-ducklakeexporter"
+package ducklakeexporter // import "github.com/hrl20/ducklakeexporter"
 
 import (
 	"context"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 
-	"github.com/hrl20/otel-ducklakeexporter/internal/parquet"
-	"github.com/hrl20/otel-ducklakeexporter/internal/postgres"
+	"github.com/hrl20/ducklakeexporter/internal/parquet"
+	"github.com/hrl20/ducklakeexporter/internal/postgres"
 )
 
 // logsExporter implements the logs exporter for DuckLake.

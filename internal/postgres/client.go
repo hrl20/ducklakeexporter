@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package postgres // import "github.com/hrl20/otel-ducklakeexporter/internal/postgres"
+package postgres // import "github.com/hrl20/ducklakeexporter/internal/postgres"
 
 import (
 	"context"

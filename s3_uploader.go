@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ducklakeexporter // import "github.com/hrl20/otel-ducklakeexporter"
+package ducklakeexporter // import "github.com/hrl20/ducklakeexporter"
 
 import (
 	"bytes"

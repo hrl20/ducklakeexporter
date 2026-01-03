@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package postgres // import "github.com/hrl20/otel-ducklakeexporter/internal/postgres"
+package postgres // import "github.com/hrl20/ducklakeexporter/internal/postgres"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 
-	"github.com/hrl20/otel-ducklakeexporter/internal/sqltemplates"
+	"github.com/hrl20/ducklakeexporter/internal/sqltemplates"
 )
 
 // CreateSchema creates the DuckLake metadata schema and tables in PostgreSQL.
